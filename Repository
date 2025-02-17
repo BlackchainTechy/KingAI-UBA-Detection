@@ -1,0 +1,13 @@
+KingAI-UBA-Detection/
+│── model/                  # AI model files
+│   ├── MoE_UBA.py          # Model definition
+│   ├── train.py            # Training script
+│   ├── evaluate.py         # Model evaluation
+│── data/                   # Datasets
+│   ├── phishing_data.csv   # PhishTank data
+│   ├── zeek_logs.csv       # UWF-ZeekData22 logs
+│── api/                    # API Integration
+│   ├── app.py              # Flask API for real-time detection
+│── README.md               # Project documentation
+│── requirements.txt        # Dependencies
+│── .gitignore              # Files to ignore (like datasets, model checkpoints)
